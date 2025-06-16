@@ -13,10 +13,10 @@ from django.views import View
 from UdyniManagement.menu import UdyniMenu
 from UdyniManagement.views import ListViewMenu, CreateViewMenu, TemplateViewMenu, UpdateViewMenu, DeleteViewMenu
 
-from .models import VoceSpesa, GAE, Stanziamento, Variazione, Impegno, Mandato
-from .models import SplitContab, SplitBudget, SplitImpegno, SplitVariazione
-from .forms import GaeForm
-from .utils import create_split_accounting_detail
+from Accounting.models import VoceSpesa, GAE, Stanziamento, Variazione, Impegno, Mandato
+from Accounting.models import SplitContab, SplitBudget, SplitImpegno, SplitVariazione
+from Accounting.forms import GaeForm
+from Accounting.utils import create_split_accounting_detail
 
 
 # =============================
