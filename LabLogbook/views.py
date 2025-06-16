@@ -5,7 +5,6 @@ from UdyniManagement.menu import UdyniMenu
 
 from django.contrib.auth.mixins import PermissionRequiredMixin
 from django.views import View
-from django.db.models import Prefetch
 from django.shortcuts import get_object_or_404, render, redirect
 from django.urls import reverse_lazy
 

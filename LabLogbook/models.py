@@ -3,7 +3,6 @@ from Projects.models import Project
 from django.db import models
 from mptt.models import MPTTModel, TreeForeignKey  # used for Comments
 from django.contrib.auth import get_user_model
-from django.core.exceptions import ValidationError
 
 
 UserModel = get_user_model()
