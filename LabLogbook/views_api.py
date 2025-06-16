@@ -1,7 +1,7 @@
-from .models import ExperimentalStation
-from .models import Experiment
-from .models import SampleForExperiment
-from .models import Measurement, Sample, File, Comment, CommentContent
+from LabLogbook.models import ExperimentalStation
+from LabLogbook.models import Experiment
+from LabLogbook.models import SampleForExperiment
+from LabLogbook.models import Measurement, Sample, File, Comment, CommentContent
 
 import json
 from django.views import View

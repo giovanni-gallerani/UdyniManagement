@@ -2,7 +2,7 @@ from django.test import TestCase, Client
 from django.urls import reverse
 from django.utils.timezone import now, timedelta
 from django.contrib.auth import get_user_model
-from .models import Laboratory, ExperimentalStation, Sample, Experiment, SampleForExperiment
+from LabLogbook.models import Laboratory, ExperimentalStation, Sample, Experiment, SampleForExperiment
 import json
 
 UserModel = get_user_model()

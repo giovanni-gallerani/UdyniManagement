@@ -1,5 +1,5 @@
-from .models import Laboratory, Sample, ExperimentalStation, Experiment, SampleForExperiment, Measurement, File, Comment, CommentContent
-from .forms import CommentForm, CommentContentForm
+from LabLogbook.models import Laboratory, Sample, ExperimentalStation, Experiment, SampleForExperiment, Measurement, File, Comment, CommentContent
+from LabLogbook.forms import CommentForm, CommentContentForm
 from UdyniManagement.views import ListViewMenu, CreateViewMenu, UpdateViewMenu, DeleteViewMenu
 from UdyniManagement.menu import UdyniMenu
 

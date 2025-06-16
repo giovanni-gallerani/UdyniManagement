@@ -1,5 +1,5 @@
-from . import views
-from . import views_api
+from LabLogbook import views
+from LabLogbook import views_api
 from UdyniManagement.views import EmptyView
 
 from django.urls import path, reverse_lazy
