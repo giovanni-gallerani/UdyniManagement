@@ -3,9 +3,9 @@ import calendar
 
 from django.db.models import Q, F, Sum, Value, Subquery, OuterRef
 from django.db.models.functions import ExtractYear, ExtractMonth, Coalesce
-from .models import EpasCode, PresenceData, ReportedWork, ReportedMission, TimesheetHours
-from .utils import check_bank_holiday, get_workpackages_fractions
-from .utils import ReportingError
+from Reporting.models import EpasCode, PresenceData, ReportedWork, ReportedMission, TimesheetHours
+from Reporting.utils import check_bank_holiday, get_workpackages_fractions
+from Reporting.utils import ReportingError
 from Tags.templatetags import tr_month
 
 

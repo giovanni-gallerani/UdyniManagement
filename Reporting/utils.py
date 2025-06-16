@@ -4,7 +4,7 @@ import numpy as np
 from django.db.models import Q
 from Tags.templatetags.tr_month import month_num2it
 
-from .models import BankHoliday
+from Reporting.models import BankHoliday
 
 
 def process_presences(xls, researcher):

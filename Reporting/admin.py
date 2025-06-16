@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import BankHoliday, EpasCode, PersonnelCost, PresenceData, ReportingPeriod, ReportedWork, ReportedMission, ReportedWorkWorkpackage, TimesheetHours
+from Reporting.models import BankHoliday, EpasCode, PersonnelCost, PresenceData, ReportingPeriod, ReportedWork, ReportedMission, ReportedWorkWorkpackage, TimesheetHours
 
 # Register your models here.
 admin.site.register(BankHoliday)

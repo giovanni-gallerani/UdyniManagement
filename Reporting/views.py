@@ -10,16 +10,16 @@ from django.db.models import Count, Sum, Q, F, Value, ExpressionWrapper, Boolean
 from django.db.models.functions import ExtractYear, ExtractMonth, Concat, Coalesce, Floor, Least
 
 from Projects.models import Project, Researcher, ResearcherRole, WorkPackage, ConflictOfInterest
-from .models import EpasCode, BankHoliday, PersonnelCost, PresenceData, ReportingPeriod, ReportedWork, ReportedWorkWorkpackage, ReportedMission, TimesheetHours
+from Reporting.models import EpasCode, BankHoliday, PersonnelCost, PresenceData, ReportingPeriod, ReportedWork, ReportedWorkWorkpackage, ReportedMission, TimesheetHours
 
-from .forms import AddReportedMissionForm, EpasCodeUpdateForm, PresenceInputForm, ReportedWorkForm  #, ReportingAddForm
+from Reporting.forms import AddReportedMissionForm, EpasCodeUpdateForm, PresenceInputForm, ReportedWorkForm  #, ReportingAddForm
 
-from .utils import process_presences, summarize_presences, serialize_presences
-from .utils import unserialize_presences, check_presences_unique, check_bank_holiday
-from .utils import get_workpackages_fractions
-from .utils import ReportingError
-from .timesheets import CheckTimesheetData, GetTimesheetData
-from .print import PrintPFDTimesheet
+from Reporting.utils import process_presences, summarize_presences, serialize_presences
+from Reporting.utils import unserialize_presences, check_presences_unique, check_bank_holiday
+from Reporting.utils import get_workpackages_fractions
+from Reporting.utils import ReportingError
+from Reporting.timesheets import CheckTimesheetData, GetTimesheetData
+from Reporting.print import PrintPFDTimesheet
 
 from Tags.templatetags import tr_month
 
