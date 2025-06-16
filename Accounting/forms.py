@@ -1,5 +1,5 @@
 from django import forms
-from .models import GAE
+from Accounting.models import GAE
 
 
 class GaeForm(forms.ModelForm):

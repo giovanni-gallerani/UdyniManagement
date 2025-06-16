@@ -1,7 +1,7 @@
 import datetime
 from collections import OrderedDict
 from django.db.models import Q, F, Sum
-from .models import SplitBudget, SplitVariazione, SplitImpegno
+from Accounting.models import SplitBudget, SplitVariazione, SplitImpegno
 
 def create_split_accounting_detail(contab):
     # First we get the budget
