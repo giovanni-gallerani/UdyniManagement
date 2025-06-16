@@ -1,7 +1,7 @@
 from django.urls import path, reverse_lazy
 from django.views.generic.base import RedirectView
 
-from . import views
+from Projects import views
 
 urlpatterns = [
     path('', RedirectView.as_view(url=reverse_lazy('project_view'), permanent=False), name='projects_index'),

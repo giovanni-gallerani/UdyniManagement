@@ -1,5 +1,5 @@
 from django import forms
-from .models import ResearcherRole, Project
+from Projects.models import ResearcherRole, Project
 
 
 class ResearcherRoleForm(forms.ModelForm):

@@ -2,11 +2,11 @@ from django.shortcuts import get_object_or_404, redirect
 from django.urls import reverse_lazy
 from django.db.models import F, Subquery
 
-from .models import Researcher, ResearcherRole, Project, WorkPackage, ConflictOfInterest
+from Projects.models import Researcher, ResearcherRole, Project, WorkPackage, ConflictOfInterest
 
 from django.contrib.auth.mixins import PermissionRequiredMixin
 
-from .forms import ResearcherRoleForm, ProjectForm
+from Projects.forms import ResearcherRoleForm, ProjectForm
 
 from django.views import View
 from UdyniManagement.views import ListViewMenu, CreateViewMenu, UpdateViewMenu, DeleteViewMenu
