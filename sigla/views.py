@@ -12,7 +12,7 @@ from django.contrib.auth.mixins import PermissionRequiredMixin
 
 from UdyniManagement.menu import UdyniMenu
 
-from .sigla import SIGLA
+from sigla.sigla import SIGLA
 
 from Accounting.models import GAE
 

@@ -1,6 +1,6 @@
 from django.urls import path, reverse_lazy
 
-from . import views
+from sigla import views
 
 
 urlpatterns = [
