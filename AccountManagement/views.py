@@ -22,9 +22,9 @@ from django.contrib.auth.mixins import PermissionRequiredMixin, LoginRequiredMix
 
 from UdyniManagement.menu import UdyniMenu
 from UdyniManagement.views import ListViewMenu, CreateViewMenu, TemplateViewMenu, UpdateViewMenu, DeleteViewMenu, FormViewMenu, udyni_error_view
-from .ldap import UdyniLdap
-from .forms import SetPasswordForm, PasswordChangeForm, PasswordResetForm, RegistrationForm, AccountCreationForm, AccountRejectionForm, UserDeleteForm, EditProfileForm
-from .models import RegistrationRequest
+from AccountManagement.ldap import UdyniLdap
+from AccountManagement.forms import SetPasswordForm, PasswordChangeForm, PasswordResetForm, RegistrationForm, AccountCreationForm, AccountRejectionForm, UserDeleteForm, EditProfileForm
+from AccountManagement.models import RegistrationRequest
 
 
 # =======================

@@ -1,7 +1,7 @@
 from django.urls import path, reverse_lazy
 from django.views.generic.base import RedirectView
 
-from . import views
+from AccountManagement import views
 
 
 urlpatterns = [

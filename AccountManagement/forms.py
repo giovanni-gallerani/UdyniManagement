@@ -5,7 +5,7 @@ from django.contrib.auth import forms as auth_forms
 from django.conf import settings
 
 from AccountManagement.models import RegistrationRequest # import the settings file
-from .ldap import UdyniLdap
+from AccountManagement.ldap import UdyniLdap
 
 UserModel = get_user_model()
 
