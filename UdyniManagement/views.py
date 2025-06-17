@@ -9,7 +9,7 @@ from django.views.generic.list import ListView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView, FormView
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 
-from .menu import UdyniMenu
+from UdyniManagement.menu import UdyniMenu
 
 
 # =============================================

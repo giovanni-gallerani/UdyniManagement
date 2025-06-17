@@ -1,8 +1,8 @@
 # Development settings
 # NOTE: when running Django rename to development.py and set the environment variable DJANGO_SETTINGS_MODULE=UdyniManagement.settings.development
 
-from . import *  # Import base settings from settings/__init__.py
-from .development_logging import LOGGING  # Import logging configuration for production
+from UdyniManagement.settings import *  # Import base settings from settings/__init__.py
+from UdyniManagement.settings.development_logging import LOGGING  # Import logging configuration for production
 
 # Secret key
 SECRET_KEY = 'django-insecure-#m^ta)8wnr+v=@o*t5#n&coip**2brq!!j@b8i8-=_+j$3zo9='

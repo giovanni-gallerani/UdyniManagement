@@ -1,8 +1,8 @@
 # Production settings
 # NOTE: when running Django rename to production.py and set the environment variable DJANGO_SETTINGS_MODULE=UdyniManagement.settings.production
 
-from . import *  # Import base settings from settings/__init__.py
-from production_logging import LOGGING  # Import logging configuration for production
+from UdyniManagement.settings import *  # Import base settings from settings/__init__.py
+from UdyniManagement.settings.production_logging import LOGGING  # Import logging configuration for production
 
 # Secret key
 SECRET_KEY = '*****************'  # Set this to a secure random value

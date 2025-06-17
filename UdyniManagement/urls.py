@@ -15,8 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from . import views
-from .menu import menu_include
+from UdyniManagement import views
+from UdyniManagement.menu import menu_include
 
 
 urlpatterns = [
